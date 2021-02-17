@@ -120,6 +120,7 @@
     }
     .bio-img img {
         width: 100%;
+        margin-top: 150px;
     }
     .bio-text {
         margin-top: 40px;
@@ -142,7 +143,6 @@
         margin-top: 150px;
         display: flex;
         flex-direction: column;
-        /* height: ; */
     }
     .footer {
         align-self: center;

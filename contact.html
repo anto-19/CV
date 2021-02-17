@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/bio.css">
     <link rel="stylesheet" href="css/resume.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="img/logo_size_invert.jpg" />
+
 
 </head>
 
@@ -22,7 +24,12 @@
         <div class="nav-bar">
             <div class="logo-burger-wrapper">
                 <div class="logo">
-                    <h4>Antranik Gouzelian</h4>
+                    <h4>
+                        <div>
+                            <a href="home.html"> <img class="img-logo" src="img/logo_size_invert.jpg" alt=""></a>
+                        </div>
+                        Antranik Gouzelian
+                    </h4>
                 </div>
                 <div class="burger">
                     <div class="line1"></div>
@@ -49,25 +56,23 @@
                 </li>
             </ul>
         </div>
-
-
         <div class="resume-wrapper">
             <h1>Contact</h1>
         </div>
 
+        <div class="form-wrapper">
+            <form class="form">
+                <h3 class="project">How can i Help you</h3>
 
-
-
-        <div class="form">
-            <form>
-                <label>Name</label>
-                <input type="text">
-                <label>Lastname</label>
-                <input type="text">
-                <label>Eamil</label>
-                <input type="email">
-                <label>Coment</label>
-                <textarea name="" id="" cols="24" rows="5"></textarea>
+                <div class="name">
+                    <input type="text" placeholder="Name" autocomplete="off" spellcheck="true">
+                    <input type="text" placeholder="Last Name" autocomplete="off" spellcheck="true">
+                </div>
+                <div class="email">
+                    <input type="email" placeholder="Email" autocomplete="off" spellcheck="true">
+                </div>
+                <textarea name="" id="" cols="50" rows="5" placeholder="Message" spellcheck="true"></textarea>
+                <button width="250px" type="submit" class="form-button" disabled>Send</button>
             </form>
         </div>
 
@@ -88,8 +93,6 @@
     <script src="js/type.js"></script>
     <script src="js/navToggeler.js"></script>
     <script src="js/navigation.js"></script>
-
-
 </body>
 
 </html>
