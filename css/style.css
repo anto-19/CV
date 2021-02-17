@@ -65,6 +65,7 @@
         }
         
         .logo h4 {
+            height: 50px;
             display: flex;
             width: 100%;
             line-height: 50px;
@@ -105,7 +106,7 @@
                 top: 0;
                 width: 100%;
                 background-color: #444;
-                height: auto;
+                padding-top: 20px;
             }
             .nav-links {
                 position: fixed;
@@ -124,7 +125,6 @@
                 margin: 0 0 40px 0;
             }
             .logo-burger-wrapper {
-                height: 25px;
                 width: 100%;
                 display: flex;
                 flex-direction: row;
@@ -132,20 +132,20 @@
                 z-index: 999;
             }
             .burger {
-                cursor: pointer;
-                margin-right: 20px;
+                display: flex;
+                flex-direction: column;
+                align-self: center;
             }
             .burger div {
-                line-height: 25px;
                 width: 25px;
                 height: 2px;
                 background-color: rgba(266, 266, 266);
-                margin: 5px;
+                margin: 2px;
             }
             .popup-wrapper {
                 background: rgba(0, 0, 0, 0.5);
                 position: fixed;
-                top: 8.4vh;
+                top: 150px;
                 left: 0;
                 width: 100%;
                 height: 100%;
@@ -155,13 +155,21 @@
         
         @media screen and (max-width: 476px) {
             .logo h4 {
+                height: 50px;
                 font-size: 10px;
+                line-height: 50px;
             }
             .nav-links {
                 width: 100%;
             }
             .popup-wrapper {
                 display: none;
+            }
+            .rights {
+                font-size: 10px;
+            }
+            .footer a {
+                font-size: 12px;
             }
         }
         
