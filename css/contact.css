@@ -1,0 +1,11 @@
+.form {
+    display: flex;
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    resize: none;
+}
